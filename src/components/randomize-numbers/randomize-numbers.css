@@ -1,0 +1,52 @@
+.content-numbers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 0 20%;
+    gap: 25px;
+}
+
+.content-numbers .wrap-number{
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    padding: 40px;
+    text-align: center;
+}
+
+.content-numbers .wrap-number .title{
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+
+.content-numbers .wrap-number .number{
+    font-family: 'Montserrat ExtraBold', sans-serif;
+    font-size: 80px;
+    line-height: 25px;
+    font-weight: 800;
+    color: #ffffff;
+    text-shadow: #000 0 0 1px, #000 0 0 1px, #000 0 0 1px, #000 0 0 1px, #000 0 0 1px, #000 0 0 1px;
+    text-align: center;
+}
+
+.randomize-content button {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    padding: 15px 50px;
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+    width: fit-content;
+    display: block;
+    margin: 50px auto;
+    transition: all .5s;
+}
+
+.randomize-content button:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

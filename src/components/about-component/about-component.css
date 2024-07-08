@@ -1,0 +1,37 @@
+.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.about-content {
+    margin: 0 20%;
+}
+
+.about-content button {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    padding: 15px 50px;
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+    width: fit-content;
+    display: block;
+    margin: 0 auto 50px;
+    transition: all .5s;
+}
+
+.about-content button:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
